@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Info</title>
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="css/style.production.css"/>
+</head>
+<body>
+    <header>
+        <header class="page-header">
+            <img src="img/logo.png" alt="Personal logo of Uaaron Sihan, a text logo that consists of my name" class="page-header__item">
+            <nav class="main-navigation page-header__item">
+                <ul role="menubar" class="navigation-list">
+                    <li role="presentation">
+                        <a href="./index.html" role="menuitem" class="navigation-list__item">Home</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="./about.html" role="menuitem" class="navigation-list__item">About</a>
+                    </li>
+                    <li>
+                        <a href="./work.html" role="menuitem" class="navigation-list__item">Work</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="./contact.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </header>
+    <main>
+        <div>
+            <h1>Contact</h1>
+        </div>
+        <div>
+            <h2>Uaaron Sihan</h2>
+            <p>2333 N Russet St.</p>
+            <p>Porltand, OR 97217</p>
+            <a href="tel:559 430 5267">Tel: 559 430 5267</a>
+            <br>
+            <a href="mailto:uaaronsihan@gmail.com">Email: uaaronsihan@gmail.com</a>
+            <br>
+            <a href="mailto:uaaronsihan@gmail.com">Contact me</a>
+        </div>
+        <form action="" method="post" id="contact-form">
+            <label class="standard-label" for="contact-email">E-mail: </label>
+            <input type="email" id="contact-email" required>
+
+            <label class="standard-label" for="contact-telephone">Telephone: </label>
+            <input type="tel" id="contact-telephone">
+
+            <label class="standard-label" for="contact-message">Message: </label>
+            <textarea maxlength="240" id="contact-message" required></textarea>
+
+            <input type="submit" value="Send Message">
+        </form>
+    </main>
+    <footer class="page-footer">
+        <p>Find me on</p>
+        <div class="social-media">
+            <img src="img/github_icon.svg" alt="Github">
+            <img src="img/twitter_icon.svg" alt="Twitter">
+            <img src="img/linkedin_icon.svg" alt="LinkedIn">
+        </div>
+    </footer>
+    <script src="js/tota11y.min.js"></script>
+</body>
+</html>

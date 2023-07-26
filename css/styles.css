@@ -150,6 +150,70 @@ button a#project_link {
     text-align: center;
 }
 
+#contact-main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contact-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 60px auto;
+    gap: 20px;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+}
+
+.info-grid h2 {
+    border-bottom: 2px solid darkgray;
+}
+
+.info-grid__item {
+    align-self: center;
+    justify-self: center;
+}
+
+.info-grid__item:nth-child(1) {
+    grid-column-start: span 2;
+    justify-self: center;
+}
+
+.info-grid__item:nth-child(8) {
+    grid-column-start: span 2;
+    justify-self: center;
+}
+
+.info-grid__item p{
+    margin:0;
+}
+
+
+.info-grid div{
+    margin: 10px;
+}
+
+#contact-header {
+    text-align: center;
+    border-bottom: 2px solid darkgray;
+    margin: 0 25px;    
+}
+
+#contact-form {
+    padding-top: 90px;
+}
+
+
+.standard-label {
+    display: block;
+}
+
+
 @keyframes color-change {
     0% {
         fill: #edc655;

@@ -50,7 +50,7 @@ a {
 }
 
 a:visited {
-    color: #3C3C3C;
+    color: #C1839F;
 }
 
 a:hover, a:focus {
@@ -112,7 +112,6 @@ main {
     align-items: center;
     flex: 1 0 auto;
 }
-
 
 .profile {
     max-width: 800px;
@@ -181,7 +180,14 @@ main {
 .project-list__item {
     display: inline-block;
     width: 33%;
+    border-radius: 10px;
+    border: 2px solid #FF5A5F;
    }
+
+.project-list__item h2,
+.project-list__item p {
+    color: #3C3C3C;
+}
 
 .skills {
     list-style-type: none;
@@ -195,7 +201,9 @@ main {
 
 #contact-main {
     width: 80%;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: -400px;
 }
 
 .contact-container {
@@ -233,6 +241,7 @@ main {
 }
 
 .info-grid__item p{
+    color:#ff5a5f;
     margin:0;
 }
 

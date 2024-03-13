@@ -189,6 +189,16 @@ main {
     color: #3C3C3C;
 }
 
+.project-list__item a {
+    display: block;
+    margin-top: 10px;
+}
+
+.app-picture {
+    width: 250px;
+    height: auto;
+}
+
 .skills {
     list-style-type: none;
     text-align: center;

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MeetApp Case Study</title>
+  <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+</head>
+
+<body>
+  <header class="page-header">
+    <h1 class="page-header__item logo">Aaron Sihan</h1>
+    <nav class="main-navigation page-header__item">
+      <ul role="menubar" class="navigation-list">
+        <li role="presentation">
+          <a href="../index.html" role="menuitem" class="navigation-list__item">Home</a>
+        </li>
+        <li role="presentation">
+          <a href="../about.html" role="menuitem" class="navigation-list__item">About</a>
+        </li>
+        <li role="presentation">
+          <a href="../work.html" role="menuitem" class="navigation-list__item">Work</a>
+        </li>
+        <li role="presentation">
+          <a href="../contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div class="case-study">
+    <h1 class="cs-header">Case Study for Meet App</h1>
+    <div class="intro">
+      <div class="intro-content">
+        <h2>Overview</h2>
+        <p>MeetApp is a serverless, progressive web application (PWA) created with React and built through a test-driven
+          development
+          (TDD) methodology. This application implements the Google Calendar API to fetch upcoming tech events at
+          various
+          locations around the world giving a date, time, and description of the event. The app also employs data
+          visualizations to show the frequency of events amongst the different locations around the world.</p>
+        <h2>Objective</h2>
+        <p>Meet App was created as a learning project aimed at deepening my proficiency in React, exploring serverless
+          technology, and embracing Test-Driven Development (TDD) methodologies. The project was an attempt to build a
+          more ambitious web application that I could add to my professional portfolio.</p>
+        <h2>Methodologies</h2>
+        <p>React, AWS Lambda, Google Calendar API, jest, jest-cucumber, Atatus for APM, PWA, Recharts.</p>
+      </div>
+      <div class="intro-img">
+        <img id="meet_homepage_img" src="../img/meet_homepage.png">
+      </div>
+    </div>
+    <h2 class="approach-title">Approach</h2>
+    <div class="oAuth-serverless">
+      <img id="oAuth_img" src="../img/o_auth.png">
+      <div class="oAuth-serverless-content">
+        <h3>Serverless and oAuth</h3>
+        <p>The foundation of Meet App’s backend was laid on servlerless architecture using AWS lambda. Serverless
+          computing was chosen because it enables the application to respond dynamically to fluctuating user
+          demand without the need for managing servers allowing me to focus solely on application logic. The initial
+          implementation of serverless into my project was challenging, but after some time and effort I was able to
+          gain a better understanding of the logic involved and successfully incorporated it into the application. The
+          serverless functions were used to set up oAuth and allow users to sign in with their own accounts.</p>
+      </div>
+    </div>
+    <div class="testing">
+      <h3 class="testing-title">Testing</h3>
+      <div class="testing-content">
+        <ul class="test-types">
+          <li><b class="test-li">Unit Testing: </b>In order to maintain code quality and reliability of Meet App,
+            comprehensive unit
+            testing was implemented. Unit tests were written to validate individual components within the application
+            such as rendering the events. Adopting unit testing practices helped in identifying and resolving bugs
+            earlier on.</li>
+          <li><b class="test-li">Integration Testing: </b>Integration testing played a crucial role in validating the
+            interactions between Meet App’s various components and processes. By conducting these tests I was able to
+            ensure overall stability of the app.</li>
+          <li><b class="test-li">User-Acceptance Testing: </b>User acceptance testing was conducted to assess Meet app’s
+            usability and adherence to user requirements. Scenarios were simulated to evaluate the applications
+            responsiveness and feature functionality. This played a key role in refining the user experience and
+            addressing any usability issues before deployment.</li>
+        </ul>
+      </div>
+      <img class="testing-img" src="../img/testing.png">
+    </div>
+    <div class="pwa-data-img">
+      <div class="pwa-data-container">
+        <div class="pwa">
+          <h3 class="pwa-title">Progressive Web App</h3>
+          <div class="pwa-content">
+            <p>One of the core functionalities of Meet App is its ability to be used as a progressive web app (PWA).
+              This
+              offers to the user a native app-like experience as well as the ability to use the application offline and
+              also
+              allows push notifications. I used Google’s lighthouse to evaluate Meet App’s aptitude as a PWA and once
+              the
+              service worker and web-app manifest was installed it passed with the criteria needed.</p>
+          </div>
+        </div>
+        <div class="data-viz">
+          <h3 class="data-viz-header">Data Visualization</h3>
+          <p>Data visualization played a significant role in providing insights to the user about the frequency of the
+            queried events. In Meet App I used a modern visualization library called Recharts to present users with
+            information about various meetups in the selected regions in a visual manner. </p>
+        </div>
+      </div>
+      <div class="data-img">
+        <img class="data-viz-img" src="../img/data_viz.png">
+      </div>
+    </div>
+    <div class="conclusion">
+      <h2 class="conclusion-title">Conclusion</h2>
+      <p>The development of Meet App allowed me to familiarize myself with several new technologies and methodologies. I
+        learned how to transform a prospective project’s feature requirements into user stories and subsequently
+        translate those user stories into gherkin syntax. The gherkin syntax then laid the foundation for the tests that
+        needed to be coded for the project throughout its development. After comprehensively testing the app through
+        unit testing, integration testing, and end-to-end testing, Meet App was validated for its functionality. This
+        project had many challenges from setting up the serverless environment to creating the PWA functionality. If I
+        were to attempt a similarly ambitious project again I would limit the amount of new technologies involved. It
+        was difficult at first to conceptualize all the abstractions, but after putting a significant amount of
+        time and effort into understanding all the moving parts of the project it became easier.</p>
+    </div>
+</body>
+<footer class="page-footer">
+  <p>Find me on</p>
+  <div class="social-media">
+    <a href="https://github.com/uaaron" target="_blank"><img src="../img/github_icon.svg" alt="Github"></a>
+    <a href="https://www.linkedin.com/in/uaaron-sihan-173294279" target="_blank"><img src="../img/linkedin_icon.svg"
+        alt="LinkedIn"></a>
+  </div>
+</footer>
+
+</html>

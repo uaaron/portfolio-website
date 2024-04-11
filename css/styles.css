@@ -209,6 +209,10 @@ main {
     text-align: center;
 }
 
+.about-text {
+    padding: 0px 40px 20px 40px;
+}
+
 #contact-main {
     width: 80%;
     display: flex;

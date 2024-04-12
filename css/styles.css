@@ -228,6 +228,19 @@ main {
     gap: 20px;
 }
 
+.contact-submit {
+    border-radius: 10px;
+    background-color: var(--primary-color);
+}
+
+.input {
+    border-radius: 10px;
+}
+
+.standard-label {
+    color: white;
+}
+
 .info-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -249,10 +262,7 @@ main {
     justify-self: center;
 }
 
-.info-grid__item:nth-child(8) {
-    grid-column-start: span 2;
-    justify-self: center;
-}
+
 
 .info-grid__item p{
     color:#ff5a5f;

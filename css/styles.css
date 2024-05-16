@@ -261,10 +261,12 @@ main {
     width: 100%;
     display:flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     margin: 60px auto;
     gap: 20px;
 }
+
+
 
 .contact-submit {
     border-radius: 10px;

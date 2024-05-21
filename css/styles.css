@@ -3,9 +3,9 @@
 }
 
 :root {
-    --primary-color: #FF5A5F;
+    --primary-color: #1a1818;
     --secondary-color: #e0b354;
-    --background-color: #087E8B;
+    --background-color: #ffffff;
     --dark-grey: #2b2b2b;
     --button-text: #fff;
     --header-font-weight: 700;
@@ -51,7 +51,7 @@ h3 {
 }
 
 p {
-    color: #fff
+    color: black;
 }
 
 a {
@@ -59,7 +59,7 @@ a {
 }
 
 a:visited {
-    color: #C1839F;
+    color: #5f5f5f;
 }
 
 a:hover, a:focus {
@@ -147,7 +147,6 @@ main {
 }
 
 .name-last {
-    color: #ffffff;
     margin-top: -50px;
 }
 
@@ -196,7 +195,6 @@ main {
     display: inline-block;
     width: 33%;
     border-radius: 10px;
-    border: 3px solid #FF5A5F;
    }
 
 .project-list__item h2,
@@ -925,10 +923,11 @@ main {
     }
 
     .project-list__item {
-        background-color: #add8e6;
+        background-color: white;
         padding: 30px;
         width: auto;
         min-height: auto;
+        box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.4), -5px -5px 5px rgb(0, 0, 0, 0.4);
     }
 
     .project-list__item:last-child {

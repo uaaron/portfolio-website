@@ -375,12 +375,12 @@ main {
 }
 
 .testing-content {
-    color: white;
+    color: black;
     width: 90%;
 }
 
 .test-li {
-    color: rgba(241, 241, 241, 0.61);
+    color: black;
 }
 
 .test-types li {

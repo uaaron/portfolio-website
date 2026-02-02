@@ -163,6 +163,7 @@ main {
   flex-direction: column;
   text-align: center;
   flex-shrink: 0;
+  z-index: 10;
 }
 
 .page-header {
@@ -687,6 +688,7 @@ main {
 /* Skyline Image */
 
 .skyline-img {
+  z-index: 1;
 }
 
 .background-buildings,
